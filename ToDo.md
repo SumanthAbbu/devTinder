@@ -10,7 +10,11 @@
 -what are dependenicies--
 
 2)router and request handlers
--intialize git
--.gitignore
--create a remote repo in github
--push all the code to remote origin
+-intialize git--
+-.gitignore--
+-create a remote repo in github--
+-push all the code to remote origin--
+--play with route and route extensions--
+--routes order is important--
+--install postamn, woprkspace, collection and tets Api call--
+--write logic to handle get, post, delete.patch and put requests
