@@ -14,7 +14,15 @@
 -.gitignore--
 -create a remote repo in github--
 -push all the code to remote origin--
---play with route and route extensions--
---routes order is important--
---install postamn, woprkspace, collection and tets Api call--
---write logic to handle get, post, delete.patch and put requests
+-play with route and route extensions--
+-routes order is important--
+-install postamn, woprkspace, collection and tets Api call--
+-write logic to handle get, post, delete.patch and put requests--
+-explore routing and use +,*,?,() in the routes--
+-Use of regex in routes /a/, /.*fly$/--
+
+3)MIDDLEWARES AND ERROR HANDLERS
+-Multiple route handlers - play with code--
+-next()--
+-next function and errors along with res.send()-
+-app.use('/route',rh1,rh2,[rh3,rh4,rh5])--
