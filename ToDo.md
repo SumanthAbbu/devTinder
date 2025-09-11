@@ -31,4 +31,16 @@
 -difference between app.use and app.all--
 -write a dumy auth middleware for admin--
 -write a dumy auth middleware for user routes, except login--
--error handling using app.use('/',)--s
+-error handling using app.use('/',)--
+
+4)database,schema,model,mongoose
+-create a free cluster on mongodb official website (mongo atlas)--
+-install mongoose library--
+-connect your application to the database--
+-call the connectDB() function and connect before strarting apploication on 7777--
+-create a userschema & user model--
+-create POST/signup API to add data to database--
+-Psuh soem documents using Api calls from postman--
+-Error handling using try ,catch
+
+mongodb+srv://sumanthabbu1398_db_user:T9kY4GUw5PVFXmsm@namastenode.vpqbv0l.mongodb.net/ -- string
