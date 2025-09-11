@@ -44,3 +44,7 @@
 -Error handling using try ,catch
 
 mongodb+srv://sumanthabbu1398_db_user:T9kY4GUw5PVFXmsm@namastenode.vpqbv0l.mongodb.net/ -- string
+
+5)diving in to apis
+-diff b/w JSON and JS object
+-create dynamic data in signup api--
