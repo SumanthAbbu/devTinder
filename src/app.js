@@ -4,6 +4,20 @@ const connectDB = require("./config/dataBase");
 const User = require("./models/user");
 
 app.use(express.json());
+app.get("/user", async (req, res) => {
+  const userEmail = req.body.userID;
+  try {
+    const users = await User.find({ userID: userEmail });
+    if (!users) res.status(404).send("not found");
+    else res.send(users);
+  } catch (err) {
+    res.status(500).send("something went wrong");
+  }
+});
+
+// app.get("/user", async (req, res) => {
+//   const userEmail = req.body.userID;
+// });
 app.post("/signup", async (req, res) => {
   //creating a new instance of User model
   const user = new User(req.body);

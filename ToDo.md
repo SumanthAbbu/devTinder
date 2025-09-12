@@ -46,5 +46,10 @@
 mongodb+srv://sumanthabbu1398_db_user:T9kY4GUw5PVFXmsm@namastenode.vpqbv0l.mongodb.net/ -- string
 
 5)diving in to apis
--diff b/w JSON and JS object
+-diff b/w JSON and JS object--
+-add express.json middleware to api--
 -create dynamic data in signup api--
+-user.findOne() with duplicate email ids, which one gets returned--
+-API - get user my email--
+-api - Feed api -GET/feed - get all the users from the databse--
+-api - get user by Id--
